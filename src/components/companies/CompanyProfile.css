@@ -1,0 +1,10 @@
+.profile_header{
+    display: flex;
+    justify-content: space-between;
+}
+.profile_header > div > h1{
+    margin-left: 20px !important;
+}
+.jobs_listing{
+    margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+.navbar{
+    flex-grow: 1;
+}
+
+.the_menu_button{
+    margin-right: 16px;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.post_job{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 18px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}

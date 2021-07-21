@@ -1,0 +1,7 @@
+.job__heading {
+    cursor: pointer !important;
+    color: #3f50b5 !important;
+}
+.job_tags{
+    flex: 0.9;
+}

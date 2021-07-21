@@ -1,0 +1,13 @@
+.job__description{
+    margin-top: 20px;
+}
+.job__tags{
+    margin-top: 10px;
+}
+.apply__now{
+    margin-top: 10px;
+}
+.top_header{
+    display: flex;
+    justify-content: space-between;
+}

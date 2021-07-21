@@ -1,0 +1,12 @@
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+.company_details{
+    padding-top: 10px;
+    flex: 0.9;
+}
+.company_name{
+    color: #3f50b5 !important;
+    cursor: pointer;
+}
