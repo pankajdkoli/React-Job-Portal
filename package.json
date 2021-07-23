@@ -1,7 +1,10 @@
 {
-  "name": "my-graphql-react-project-01",
+  "name": "react-job-portal",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@apollo/client": "^3.3.21",
     "@material-ui/core": "^4.12.0",
