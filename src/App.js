@@ -4,7 +4,8 @@ import { ApolloProvider } from '@apollo/client';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 import './App.css';
 
@@ -19,7 +20,7 @@ import PostJob from './components/post-job/PostJob';
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Router>
+      <HashRouter basename='/'>
         <div className="App">
           <Navbar></Navbar>
           <Menubar></Menubar>
@@ -48,7 +49,7 @@ function App() {
 
           </div>
         </div>
-      </Router>
+      </HashRouter>
     </ApolloProvider>
   );
 }
